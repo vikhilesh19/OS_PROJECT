@@ -1,0 +1,9 @@
+casper
+linux-image-generic
+systemd-sysv
+sudo
+kmod
+pciutils
+procps
+iproute2
+ca-certificates

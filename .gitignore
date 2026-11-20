@@ -1,0 +1,34 @@
+
+# Generated Linux images and filesystems
+/build/
+*.iso
+*.img
+*.squashfs
+
+# Large kernel files
+/kernel/
+*.deb
+*.buildinfo
+*.changes
+
+# Archives
+*.tar.gz
+*.zip
+
+# Large build logs
+/results/*.log
+
+# Temporary files
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+.venv/
+
+# Credentials and private files
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_ed25519

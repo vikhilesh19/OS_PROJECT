@@ -1,0 +1,16 @@
+
+[Unit]
+Description=Track C CUDA GPU Detection and Benchmark
+After=local-fs.target systemd-modules-load.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/trackc-cuda-check
+RemainAfterExit=yes
+TimeoutStartSec=180
+StandardOutput=journal+console
+StandardError=journal+console
+
+[Install]
+WantedBy=multi-user.target
+

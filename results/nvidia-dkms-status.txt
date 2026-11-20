@@ -1,0 +1,1 @@
+nvidia/615.71.09, 6.8.12-trackc, x86_64: installed
