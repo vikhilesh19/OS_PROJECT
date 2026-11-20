@@ -1,5 +1,5 @@
 
-# Track C — Custom Linux for NVIDIA CUDA Computing
+# Custom Linux for NVIDIA CUDA Computing
 
 ## Overview
 A customized Ubuntu 24.04-based Linux distribution
@@ -62,4 +62,3 @@ and docs/DEMO_GUIDE.md.
 ## Limitations
 Physical GPU execution and full clean-build
 reproduction require further verification.
-```
